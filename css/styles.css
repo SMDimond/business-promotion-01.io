@@ -10,3 +10,20 @@ li {
   padding: 0px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Common styles */
+:root {
+  --text-color: rgba(34, 52, 61, 1);
+}
+
+body {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+
