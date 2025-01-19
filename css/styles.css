@@ -515,7 +515,40 @@ body {
 .strategies__scrolling {
   width: 16px;
   height: 16px;
-  background-color: #979797;
+  background-color: #EFEFEF;
   border-radius: 50%;
 }
 
+.strategies__scrolling-box {
+  display: flex;
+  width: 68px;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.strategies__current-scroll {
+  background-color: var(--interactive-color);
+}
+
+/* - - - pricetable - - - */
+.pricetable__subtitle {
+  margin-bottom: 10px;
+  text-align: center;
+
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.pricetable__dcr {
+  margin-bottom: 40px;
+  text-align: center;
+
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.pricetable__list {
+  display: flex;
+  
+}
