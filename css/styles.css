@@ -556,7 +556,9 @@ body {
 .pricetable__item {
   width: 322px;
   padding: 32px;
-  border: 1px solid tomato;
+
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
 
   text-align: center;
 }
@@ -592,8 +594,8 @@ body {
 
 .pricetable__currency {
   position: absolute;
-  top: 24px;
-  left: 59px;
+  top: 26px;
+  left: 60px;
 
   font-family: 'Inter', serif;
   font-size: 24px;
@@ -621,12 +623,25 @@ body {
   letter-spacing: 0.2px;
 }
 
+.pricetable__price-wrapper.fixed {
+  width: 187px;
+}
+
+.fixed-currency {
+  position: absolute;
+  top: 26px;
+  left: 90px;
+}
+
 .benefits-item {
   margin-bottom: 16px;
 }
 
 .pricetable__price-wrapper {
   position: relative;
+  width: 157px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .pricetable__btn {
@@ -647,5 +662,42 @@ body {
   letter-spacing: 0;
   color: #fff;
   text-decoration: none;
+}
+
+.pricetable {
+  margin-bottom: 100px;
+}
+
+/* - - - customer-reviews - - - */
+.customer-reviews__subtitle {
+  margin-bottom: 10px;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.78em;
+  letter-spacing: 0.02px;
+  text-align: center;
+}
+
+.customer-reviews__dcr {
+  width: 537px;
+  margin: 0px auto 40px;
+
+  line-height: 1.75em;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.customer-reviews__list {
+  display: flex;
+  gap: 64px;
+}
+
+.customer-reviews__item {
+  width: calc((100% - 130) / 3);
+  padding: 28px;
+
+  border: 1.5px solid #DEDEDE;
+  border-radius: 7px;
 }
 
