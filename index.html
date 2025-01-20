@@ -143,21 +143,27 @@
         <ul class="customer-support__list">
           <li class="customer-support__item">
             <div class="customer__svg-wrapper">
-            <svg class="customer-support__icon" width="16" height="16">
-              <use href="./images/sprite.svg#tick-1"></use>
-            </svg>
-          </div>
+              <svg width="16" height="12">
+                <use href="./images/sprite.svg#icon-support-1"></use>
+              </svg>
+            </div>
             <p class="customer-support__paragraph">Never worry about overpaying for your energy again. </p>
           </li>
           <li class="customer-support__item">
-            <img class="customer-support__icon" src="./images/svg/icon-sec-4-2.svg" alt="icon" width="35.07"
-              height="35">
+            <div class="customer__svg-wrapper">
+              <svg width="16" height="12">
+                <use href="./images/sprite.svg#icon-support-1"></use>
+              </svg>
+            </div>
             <p class="customer-support__paragraph">We will only switch you to energy companies that we trust and will
               treat you right</p>
           </li>
           <li class="customer-support__item">
-            <img class="customer-support__icon" src="./images/svg/icon-sec-4-3.svg" alt="icon" width="35.07"
-              height="35">
+            <div class="customer__svg-wrapper">
+              <svg width="16" height="12">
+                <use href="./images/sprite.svg#icon-support-1"></use>
+              </svg>
+            </div>
             <p class="customer-support__paragraph">We track the markets daily and know where the savings are.</p>
           </li>
         </ul>
@@ -186,7 +192,9 @@
             more money, </p>
         </li>
       </ul>
-      <img src="./images/svg/collaboration-img.svg" alt="callobration-img" width="540" height="500">
+      <svg width="540" height="500">
+        <use href="./images/sprite.svg#collaboration-img"></use>
+      </svg>
     </div>
   </section>
   <section class="process">
@@ -293,7 +301,7 @@
             <span class="pricetable__currency fixed-currency">$</span>
             <span class="pricetable__duration">Per / month</span>
           </div>
-          <ul class="pricetable__benefits-list">
+          <ul class="pricetable__benefitslist">
             <li class="benefits-item">10+ Operators</li>
             <li class="benefits-item">Notifications</li>
             <li class="benefits-item">Landing Pages</li>
@@ -310,76 +318,123 @@
         the two major realms of Classical physics: Newtonian mechanics</p>
       <ul class="customer-reviews__list">
         <li class="customer-reviews__item">
-          <img src="./images/svg/Group 204.svg" alt="4 stars" width="106" height="18">
+          <svg class="costomer-reviews__icon-stars" width="106" height="18">
+            <use href="./images/sprite.svg#stars"></use>
+          </svg>
           <p class="customer-reviews__comment">Product helps you see how many
             more days you need to work to
             reach your financial goal.</p>
-          <div><img src="./images/customer-reviews/avatar-1.png" alt="avatar-1" width="50" height="50"><span>Wahid
-              Ari</span><span>Designer</span></div>
+          <div class="customer-reviews__personality">
+            <img src="./images/customer-reviews/avatar-1.png" alt="avatar-1" width="50" height="50">
+            <div>
+              <h3 class="customer-reviews__personals-name">WahidAri</h3>
+              <p class="customer-reviews__personals-funtion">Designer</p>
+            </div>
+          </div>
         </li>
         <li class="customer-reviews__item">
-          <img src="./images/svg/Group 204.svg" alt="4 star" width="106" height="18">
+          <svg class="costomer-reviews__icon-stars" width="106" height="18">
+            <use href="./images/sprite.svg#stars"></use>
+          </svg>
           <p class="customer-reviews__comment">Product helps you see how many
             more days you need to work to
             reach your financial goal.</p>
-          <div><img src="./images/customer-reviews/avatar-2.png" alt="avatar-2" width="50" height="50"><span>Wahid
-              Ari</span><span>Designer</span></div>
+          <div class="customer-reviews__personality">
+            <img src="./images/customer-reviews/avatar-2.png" alt="avatar-2" width="50" height="50">
+            <div>
+              <h3 class="customer-reviews__personals-name">WahidAri</h3>
+              <p class="customer-reviews__personals-funtion">Designer</p>
+            </div>
+          </div>
         </li>
         <li class="customer-reviews__item">
-          <img src="./images/svg/Group 204.svg" alt="4 star" width="106" height="18">
+          <svg class="costomer-reviews__icon-stars" width="106" height="18">
+            <use href="./images/sprite.svg#stars"></use>
+          </svg>
           <p class="customer-reviews__comment">Product helps you see how many
             more days you need to work to
             reach your financial goal.</p>
-          <div><img src="./images/customer-reviews/avatar-3.png" alt="avatar-3" width="50" height="50"><span>Wahid
-              Ari</span><span>Designer</span></div>
+          <div class="customer-reviews__personality">
+            <img src="./images/customer-reviews/avatar-3.png" alt="avatar-3" width="50" height="50">
+            <div>
+              <h3 class="customer-reviews__personals-name">WahidAri</h3>
+              <p class="customer-reviews__personals-funtion">Designer</p>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
   </section>
   <section class="promo">
-    <div>
-      <h2 class="promo_subtitle">Join 100 Compannies who boost their business with Product</h2>
-      <a href="">Get This</a>
-      <img src="" alt="" width="" height="">
+    <div class="promo__wrapper">
+      <div>
+        <h2 class="promo_subtitle">Join 100 Compannies who boost their business with Product</h2>
+        <a class="promo__btn" href="">Get This</a>
+      </div>
+      <img src="./images/promo/promo-screen.png" width="415" height="345" alt="promo">
     </div>
   </section>
   <footer class="footer">
-    <div>
-      <a class="footer__logo"><img>Product</a>
-      <ul class="">
-        <li class=""><img src="" alt=""></li>
-        <li class=""><img src="" alt=""></li>
-        <li class=""><img src="" alt=""></li>
-      </ul>
+    <div class="container footer__wrapper-flex">
+      <div>
+        <a class="header__logo" href="./index.html">
+          <svg width="40" height="36">
+            <use href="./images/sprite.svg#logo"></use>
+          </svg>
+          <span>Product</span>
+        </a>
+        <ul class="footer__sociallink-list">
+          <li class="footer__link-item">
+            <a class="footer__social-link" href="#">
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__social-link" href="#">
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__social-link" href="#">
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="footer__resource-list">
+          <h3 class="footer__resource-subtitle">Resource</h3>
+          <li class="footer__resource-item"><a href="">About Us</a></li>
+          <li class="footer__resource-item"><a href="">Blog</a></li>
+          <li class="footer__resource-item"><a href="">Contact</a></li>
+          <li class="footer__resource-item"><a href="">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="footer__legal-stuff-list">
+          <h3>Legal Stuff</h3>
+          <li class="footer__legal-stuff-item"><a href="">Disclaimer</a></li>
+          <li class="footer__legal-stuff-item"><a href="">Financing</a></li>
+          <li class="footer__legal-stuff-item"><a href="">Privacy Policy</a></li>
+          <li class="footer__legal-stuff-item"><a href="">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__text">knowing you're always on the best energy deal.</p>
+        <form class="footer__form">
+          <label for="user-phone">
+            <input id="user-phone" type="phone" placeholder="Enter your phone number">
+          </label>
+        </form>
+        <a class="footer__btn" href="#">Sign up Now</a>
+      </div>
     </div>
-    <div>
-      <ul class="footer__resource-list">
-        <h3 class="footer__resource-subtitle">Resource</h3>
-        <li class="footer__resource-item"><a href="">About Us</a></li>
-        <li class="footer__resource-item"><a href="">Blog</a></li>
-        <li class="footer__resource-item"><a href="">Contact</a></li>
-        <li class="footer__resource-item"><a href="">FAQ</a></li>
-      </ul>
-    </div>
-    <div>
-      <ul class="footer__legal-stuff-list">
-        <h3>Legal Stuff</h3>
-        <li class="footer__legal-stuff-item"><a href="">Disclaimer</a></li>
-        <li class="footer__legal-stuff-item"><a href="">Financing</a></li>
-        <li class="footer__legal-stuff-item"><a href="">Privacy Policy</a></li>
-        <li class="footer__legal-stuff-item"><a href="">Terms of Service</a></li>
-      </ul>
-    </div>
-    <div>
-      <p class="footer__text">knowing you're always on the best energy deal.</p>
-      <form class="footer__form">
-        <label for="user-phone">
-          <input id="user-phone" type="phone" placeholder="Enter your phone number">
-        </label>
-      </form>
-      <a class="footer__btn" href="#">Sign up Now</a>
-    </div>
-    <p>Made With Love By Figmaland All Right Reserved</p>
   </footer>
 </body>
 
