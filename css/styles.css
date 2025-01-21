@@ -820,6 +820,7 @@ body {
 /* - - - footer - - - */
 .footer__sociallink-list {
   display: flex;
+  margin-bottom: 120px;
 }
 
 .footer__social-link {
@@ -840,6 +841,68 @@ body {
 
 .footer__wrapper-flex {
   display: flex;
+}
+
+.footer__wrapper-social {
+  margin-right: 146px;
+}
+
+.footer__wrapper-social > .header__logo {
+  margin-bottom: 18px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0;
+}
+
+.footer__resource-list li,
+.footer__legal-stuff-list li {
+  line-height: 2.18em;
+}
+
+.footer__resource-list a,
+.footer__legal-stuff-list a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.wrapper-resource-list {
+  width: 119px;
+  margin-right: 128px;
+}
+
+.wrapper-legalstuff-list {
+  width: 131px;
+  margin-right: 83px;
+  white-space: nowrap;
+}
+
+.footer__text {
+  margin-bottom: 30px;
+}
+
+.footer__form {
+  margin-bottom: 25px;
+}
+
+.footer__btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 131px;
+  height: 39px;
+
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: white;
+
+  background-color: var(--interactive-color);
+  border-radius: 4px;
 }
 
 
